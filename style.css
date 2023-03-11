@@ -1,32 +1,67 @@
 * {
-  color: #fafaf9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #292524;
+  color: #fafaf9;
+  font-family: "Sono", sans-serif;
+  padding: 40px;
+}
+
+.header {
+  margin-bottom: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .fact-form {
   background-color: #44403c;
+  margin-bottom: 40px;
+  padding: 16px 40px;
+  text-align: center;
 }
+
 h1 {
   font-size: 42px;
   text-transform: uppercase;
-  text-align: center;
   font-family: "Coiny", sans-serif;
+  line-height: 1;
+  margin-top: 5px;
 }
 
 .fact {
   font-size: 20px;
   line-height: 1.4;
-  font-family: "Sono", sans-serif;
   background: #44403c;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  letter-spacing: -1px;
+
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .tag {
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Coiny", sans-serif;
+  padding: 3px 10px 0px 10px;
+}
+
+.vote-buttons {
+  margin-left: auto;
 }
 
 ul {
