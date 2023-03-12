@@ -239,10 +239,59 @@ ul {
   }
 
   .logo {
-    /* flex-direction: column; */
     margin-bottom: 26px;
     gap: 6px;
     margin-top: 0;
     align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    padding: 16px 18px;
+  }
+
+  .logo img {
+    width: 62px;
+    height: 62px;
+  }
+
+  .logo h1 {
+    font-size: 38px;
+  }
+
+  .fact {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    padding: 14px 22px;
+    letter-spacing: -1px;
+    gap: 16px;
+  }
+
+  .fact-form input,
+  .fact-form select {
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .fact-form {
+    padding: 16px 23px;
+    gap: 14px;
+  }
+
+  .fact-form span {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .vote-buttons button {
+    font-size: 14px;
+  }
+
+  .tag {
+    font-size: 13px;
+    padding: 4.5px 10px 2.5px 10px;
   }
 }
