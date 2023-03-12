@@ -11,6 +11,10 @@ body {
   padding: 48px 64px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 /*  MAIN LAYOUT */
 .container {
   max-width: 1500px;
@@ -177,6 +181,8 @@ ul {
   align-items: center;
   gap: 16px;
   border-radius: 16px;
+
+  transition: all 0.3s ease-in-out;
 }
 
 .fact-form input,

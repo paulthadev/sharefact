@@ -13,6 +13,8 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
     <title>Today I Learned!</title>
   </head>
 
@@ -27,7 +29,7 @@
         <button class="btn btn-large">Share a Fact</button>
       </header>
 
-      <form class="fact-form" action="">
+      <form class="fact-form hidden" action="">
         <input type="text" placeholder="Share a fact with the World..." />
         <span>200</span>
         <input type="text" placeholder="Trustworthy source" />
@@ -69,7 +71,7 @@
         </aside>
 
         <section>
-          <ul>
+          <ul class="facts-list">
             <li class="fact">
               <p>
                 React is being developed by Meta (formerly facebook)
