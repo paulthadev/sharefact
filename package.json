@@ -1,6 +1,11 @@
 {
-  "name": "today-i-learned",
+  "name": "sharefact",
   "version": "0.1.0",
+  "author": "Paul Fadayo",
+  "keywords": [
+    "facts",
+    "learning"
+  ],
   "private": true,
   "dependencies": {
     "@supabase/supabase-js": "^2.11.0",
