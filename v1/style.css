@@ -94,6 +94,7 @@ h1 {
   font-family: "Coiny", sans-serif;
   padding: 4.5px 10px 0px 10px;
   border-radius: 35px;
+  /* margin-right: auto; */
 }
 
 .vote-buttons {
