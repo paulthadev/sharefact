@@ -1,8 +1,7 @@
 # ShareFact
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/83b103e9-0954-4e29-8264-8381bbf29402/deploy-status)](https://app.netlify.com/sites/sharefact/deploys)
 
-Live Preview 👉[ Click Here](https://sharefact.netlify.app/)
+Live Preview 👉[ Click Here](https://sharefact.vercel.app/)
 
 ## Introduction
 
